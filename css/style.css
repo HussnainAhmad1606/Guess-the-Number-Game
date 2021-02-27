@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Century Gothic";
+	color: white;
+}
+
+#guessNumber {
+	height: 92vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#heading {
+	font-size: 300%;
+	margin: 10px;
+	letter-spacing: 3px;
+}
+
+#desc {
+	font-size: 30px;
+	margin: 10px;
+	letter-spacing: 3px;
+}
+
+#guessInfo {
+	font-size: 30px;
+	margin: 10px;
+}
+
+#number {
+	font-size: 30px;
+	margin: 10px;
+	color: #062066;
+	padding: 10px;
+	width: 60%;
+	text-indent: 5px;
+	letter-spacing: 3px
+}
+
+#checkNumber, #playAgain {
+	background: none;
+	font-size: 30px;
+	border-radius: 7px;
+	padding: 5px 10px;
+	border: 2px solid white;
+	margin: 10px;
+	cursor: pointer;
+	letter-spacing: 3px;
+	transition: 0.1s ease all;
+}
+
+#checkNumber:hover, #playAgain:hover {
+	background-color: white;
+	color: #062066;
+}
+
+#message {
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: white;
+	height: 8vh;
+}
+
+footer div h3 {
+	color: #062066  !important;
+	letter-spacing: 3px;
+	font-size: 22px;
+}
+
+@media (max-width: 716px) {
+	#heading {
+		font-size: 280%;
+	}
+
+	footer {
+		display: none;
+	}
+}
+
+
+@media (max-width: 716px) {
+	#number {
+		font-size: 22px;
+	}
+}
+
